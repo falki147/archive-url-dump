@@ -1,0 +1,23 @@
+{
+  "name": "archive-url-dump",
+  "version": "0.0.1",
+  "description": "URL downloader for Wayback Machine",
+  "main": "index.js",
+  "bin": "./index.js",
+  "keywords": [
+    "archive",
+    "wayback",
+    "download"
+  ],
+  "author": {
+    "name": "Florian Preinfalk",
+    "url": "https://github.com/falki147"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-retry": "^3.1.9",
+    "commander": "^8.1.0",
+    "ora": "^5.4.1"
+  }
+}
